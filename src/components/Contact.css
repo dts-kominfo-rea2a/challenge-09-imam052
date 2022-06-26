@@ -1,0 +1,26 @@
+.contact {
+  width: 100%;
+  min-height: 100px;
+  padding: 10px;
+  display: flex;
+  border-radius: 10px;
+  align-items: center;
+  background-color: #ccda81;
+  margin-bottom: 1em;
+}
+
+.contact .contact-avatar img {
+  vertical-align: middle;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-left: 5em;
+  margin-right: 10em;
+}
+.contact .contact-info {
+  display: flex;
+  flex-direction: column;
+}
+.contact-info p{
+    margin: 0.5em 0;
+}
